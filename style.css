@@ -78,9 +78,16 @@ p { margin-bottom: 14px; }
   padding: 7px 0;
   font-size: 0.94rem;
   color: var(--muted);
+  font-weight: 300;
 }
 
-.pub-title { font-weight: 600; color: var(--text); }
+.publications li em { font-size: 0.9em; }
+
+.pub-title {
+  font-weight: 600;
+  color: var(--text);
+  font-size: 1.06em;
+}
 a.pub-title { color: var(--accent); }
 
 ul {
