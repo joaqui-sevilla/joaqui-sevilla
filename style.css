@@ -101,6 +101,9 @@ ul li { margin-bottom: 6px; font-size: 0.94rem; }
   line-height: 1.5;
 }
 
+.entry-note a { color: inherit; text-decoration: underline; }
+.entry-note a:hover { color: var(--accent); }
+
 /* ── Footer ── */
 .footer {
   margin-top: 44px;
